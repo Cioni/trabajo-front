@@ -1,0 +1,598 @@
+/* Hola profee!! la resolucion que use es la establecida en la consigna */
+
+
+/* Con respecto al style de la letra, no se porque no me lo toma en toda la pagina, toque de todo para ver como arreglarlo pero nada */
+/* Lo de arriba tampoco le des bola porque gracias a Guille lo solucione :)*/
+
+
+/* La declaracion de abajo no le des bola lo pude solucionar jajajajjaj*/
+
+/* Profe, te comento este problema que tuve aca. Cuando apretaba en algun boton de la pagina, se me bugeaba el estilo y no se me acomodaba la pagina como yo la deje, ni en 1440 ni en 375, me aparecia como que tenia que desplazar para ver todo el contenido. Me faltaba poner el logo blanco abajo de todo, el copyright abajo de todo e intentar hacer el carousel con los testimonios.
+
+Tengame piedad los dos holdeamos ETH :D
+*/
+
+* {
+    font-family: "Be Vietnam Pro";
+    box-sizing: border-box;
+}
+
+
+.logo-blanco-responsive{
+    display: none;
+}
+.menu-hambur{
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-left: 7%;
+}
+
+.nav-bar a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    font-weight: 500 medium;
+    font-style: normal;
+    color: #242E52;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5%;
+}
+
+.nav-logo,
+.nav-button {
+    margin: 20px;
+    padding: 20px;
+    margin-right: 5%;
+}
+
+
+button{
+    color: white;
+    border: none;
+    width: 134px;
+    height: 44px;
+    left: 0px;
+    top: 325px;
+    background: #F3603B;
+    box-shadow: 0px 4px 4px #f2613b80;
+    border-radius: 50px;
+
+}
+
+
+
+.contenedor1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-top: -3%;
+}
+
+
+.first {/* Bring everyone together to build better products. */
+    display: flex;
+    flex-direction: column;
+    Width: 650px;
+    Height: 500px;
+    margin-top: 100px;
+    margin-left: 7%;
+}
+
+h1 {
+    color: #232C50;
+    font-weight: 700 bold;
+    font-size: 58px;
+    width: 500px;
+}
+
+
+h3 {
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    color: #232C50;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+
+.texto-titulo {
+    font-family: 'Be Vietnam';
+    font-weight: 500 normal;
+    font-size: 16px;
+    line-height: 24px;
+    width: 350px;
+}
+
+
+
+.second { /* esto es la imagen del grafico*/
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    width: 600px;
+    height:550px;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+
+}
+
+
+/* lo que dice el contenedor 3 */
+
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.Third h3 {
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.fourth { /* aca va la lista */
+    display: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 12%;
+    margin-left: 20%;
+}
+
+
+
+.Estilo-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    background-color: #f3603b;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 150%;
+    margin-right: 20px;
+    padding: 20px;
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+
+
+.list-description {
+    display: flex;
+    margin-left: 30%;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.list-description li{
+    list-style-type: none;
+}
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fourth h5 {
+    color: #323851;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 20px 0px 15px 0px;
+}
+
+.fourth p {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    color: #b3b2b7;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+/* aca arrancan los testimonios */
+
+.titulo-testimonio h3 {
+    color: #242e53;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+
+}
+
+.testi {
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+
+
+#anisha {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+#ali {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#richard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3f4868;
+    margin: 20px;
+}
+
+.testimonio {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.texto-testimonio{
+    color: #B9B9C1;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img {
+    display: flex;
+    margin:20px;
+}
+
+
+/* esto seria otra opcion para web nomas, en mobile se va al carajo*/
+/* .img {
+    margin: 13%;
+    width: 70px;
+    height: 70px;
+    left: 160px;
+    top: 0px;
+    align-self: center;
+
+} */
+
+.button-testi {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.banner {
+    background-color: #f3603b;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.banner h2{
+    color: white;
+    margin-left: 8%;
+    font-size: 40px;
+    margin-left: -15%;
+}
+
+.boton-blanco {
+    margin-top: 2%;
+    margin-right: -16.2%;
+    background-color: white;
+    color: #F3603B;
+    border: none;
+    width: 134px;
+    height: 44px;
+    left: 0px;
+    box-shadow: 0px 8px 8px #f2613b80;
+    border-radius: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1E26;
+    color: white;
+    padding: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+input {
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 15%;
+}
+
+.foot-links-responsive{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.iconos-redes{
+    margin-top: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+#footer-links ul {
+    list-style: none;
+    margin-top: 35%;
+}
+
+#footer-links ul li {
+    margin: 15px;
+}
+
+#footer-links ul a {
+    color: #ffffff;
+}
+
+#footer-links a:hover {
+    color: #f3603b;
+}
+
+#logo-footer{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+#iconos-redes {
+    margin: 20px;
+}
+
+#footer-izquierda{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.copy{
+    display: flex;
+    justify-content: end;
+    margin-top: 30%;
+    color:#8C8C94;
+    font-size: 12.5px;
+    line-height: 18px;
+}
+
+.copy2{
+    display:none;
+}
+
+@media screen and (max-width: 375px){
+    .navbar{
+        display: none;
+    }
+
+    .button-nav{
+        display:none;
+    }
+
+    .menu-hambur{
+        display: flex;
+        justify-content: flex-end; 
+        margin-left: 550%; /* aca puse 500% porque con el 100% no se porque me quedaba casi al lado del logo */
+    }
+/* img del grafico */
+    
+    .second {
+        width: 210%; /* lo mismo que con el menu hamburguesa, puse 220% para que me quede centrada la imagen, si ponia al 100% me cortaba la imagen a la mitad*/ 
+        margin-left: 10%;
+    }
+    .contenedor1{ /* aca hago que primero aparezca la img y despues el texto*/
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    .first {
+        text-align: center;
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 18%;
+    }
+
+    .texto-titulo {
+        text-align: center;
+        width: 100%;
+        margin-top: -20%;
+        margin-left: 20%;
+    }
+
+    .button-contendor1{
+        margin-left: 37%;
+    }
+
+    .contenedor2{
+        display: flex;
+        flex-direction: column;
+    }
+    .Third {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        margin-left: 40%;
+        margin-top: -20%;
+        text-align: center;
+    }
+
+    .fourth {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+    }
+    .Estilo-lista {
+        margin-top: 37%;
+    }
+    .fourth h5{
+        width: 100%;
+        padding: 2%;
+        background-color:#f1dbd5;
+    }
+    
+
+    /* profe aca puse en column los testimonios porque no me salio hacer el carousel */
+    .testi {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .testimonios {
+        position: relative;
+        width: 550px;
+    }
+    .testimonios h3{
+        width: 100%;
+        position: center;
+    }
+
+    .carrusel { /* aca empezaria el carousel*/
+        width:100%;
+    }
+
+    /* lloro me re costo hacer un carousel, ni me salio borre todo */
+
+    .button-testi{
+        position: center;
+        margin-left: 4%;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        width: 570px;
+        height: 500px;
+        text-align: center;   
+        
+        padding-bottom: 20%; 
+        }
+    .banner h2 {
+        margin: 20%;
+        text-align:center;
+    }
+
+    .boton-blanco{
+        margin-top: -18%;
+        margin-left: 35%;
+    }
+    footer {
+        width: 570px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #logo-footer{
+        display: none;
+       
+    }                                                                               
+
+    .input-mobile {
+        width: 320px;
+        margin: 5%;
+    }
+    .copy{
+        display: none;
+    }
+    .foot-links-responsive {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 150px;
+    }
+
+    .iconos-redes img{
+        position: relative;
+        width: 50px;
+        margin-top: -80px;
+     
+    }
+
+
+    .logo-blanco-responsive {
+        display: block;
+        width: 270px;
+        margin-top: 20%;
+        margin-left: 16%;
+    }
+    .copy2{
+        display: block;
+        text-align:center;
+        color: #8C8C94;
+    }
+    
+}
+
+
+/*
+estos codigos es como habia hecho al principio, pero despues hice de otra forma
+
+#footer-medio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer-medio2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#footer-derecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+*/
